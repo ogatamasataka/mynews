@@ -39,9 +39,9 @@
                             
                             <div class="form-group row">
                                 <div class="col-md-6 offset-md4">
-                                    <div class="checckbox">
+                                    <div class="checkbox">
                                         <label>
-                                            <input type="checckbox" name="remember" {{ old('remember') ? 'cheked' : '' }}> {{ __('messages.Remember Me') }}
+                                            <input type="checkbox" name="remember" {{ old('remember') ? 'cheked' : '' }}> {{ __('messages.Remember Me') }}
                                         </label>
                                     </div>
                                 </div>
