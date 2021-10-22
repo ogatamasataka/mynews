@@ -49,7 +49,8 @@
                               <textarea class="form-control" name="body" rows="20">{{ old('body') }}</textarea>
                           </div>
                       </div>
-                       
+                       {{ csrf_field() }}
+                       <input type ="submit" class="btn-primary" value="更新">
                   </form>
                 </div>
             </div>
